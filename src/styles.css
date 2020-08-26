@@ -1,0 +1,99 @@
+html, body {
+    background-color: #111111;
+    color: rgba(255, 255, 255, .97);
+    
+    overflow: hidden;
+    
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+#buttons {
+    width: 100%;
+    height: 100%;
+
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+#buttons > * {
+    width: 50%;
+    height: 50%;
+
+    cursor: pointer;
+}
+
+
+#button-1 {
+    background-color: #FFFF00;
+}
+
+#button-1:hover {
+    background-color: #FFFF33;
+}
+
+#button-1:active {
+    background-color: #FFFF66;
+}
+
+#button-1.pressed {
+    background-color: #666600 !important;
+}
+
+
+#button-2 {
+    background-color: #0000FF;
+}
+
+#button-2:hover {
+    background-color: #3333FF;
+}
+
+#button-2:active {
+    background-color: #6666FF;
+}
+
+#button-2.pressed {
+    background-color: #000066 !important;
+}
+
+
+#button-3 {
+    background-color: #FF0000;
+}
+
+#button-3:hover {
+    background-color: #FF3333;
+}
+
+#button-3:active {
+    background-color: #FF6666;
+}
+
+#button-3.pressed {
+    background-color: #660000 !important;
+}
+
+
+#button-4 {
+    background-color: #00FF00;
+}
+
+#button-4:hover {
+    background-color: #33FF33;
+}
+
+#button-4:active {
+    background-color: #66FF66;
+}
+
+#button-4.pressed {
+    background-color: #006600 !important;
+}
